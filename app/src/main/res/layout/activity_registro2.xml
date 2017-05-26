@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#325688"
+    android:padding="16dp"
+    tools:context="com.example.yawar.historypet.Registro2">
+
+       <ImageButton
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#5486B8"
+        android:textColor="#FFF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/set_picture"
+        android:layout_height="0dp"
+        android:onClick="registrar2"/>
+
+</LinearLayout>
